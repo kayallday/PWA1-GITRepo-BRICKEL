@@ -313,8 +313,15 @@ console.log('------ conditionals ----------');
     1. learn if - else
  ********************************************/
 
+var weather = "Cloudy";
 
-
+if (weather === "sunny"){
+  var bobsMood = "happy";
+}
+else {
+    var bobsMood = "sad";
+}
+   console.log(bobsMood)
 
 /*******************************************
  STUDENT ACTIVITY 4:
