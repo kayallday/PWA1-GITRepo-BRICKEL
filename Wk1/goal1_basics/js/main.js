@@ -153,7 +153,12 @@ console.log('------ arrays ----------');
  ********************************************/
 var exArr = [10, 50, 100, 200];
 
-console.log()
+var sum = exArr[0] + exArr[1] + exArr[2] + exArr[3];
+
+console.log("The sum of the numbers in the array is " + sum);
+
+
+
 
 
 /*******************************************
@@ -170,6 +175,8 @@ console.log()
     3. output array items using string concatenation
 
  ********************************************/
+
+
 
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
