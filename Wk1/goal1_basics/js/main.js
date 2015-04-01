@@ -176,7 +176,11 @@ console.log("The sum of the numbers in the array is " + sum);
 
  ********************************************/
 
+var myArray = ["baseball", "football", "basketball"];
 
+var output = myArray.join();
+
+console.log(output);
 
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
