@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  PWA1-####
+     Name:Kelsey M. Brickel
+     Date:March 31, 2015
+     Class & Section:  PWA1-1504
      Comments: "Goal 1: Review of WPF"
  */
 
@@ -151,7 +151,9 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
+var exArr = [10, 50, 100, 200];
 
+console.log()
 
 
 /*******************************************
