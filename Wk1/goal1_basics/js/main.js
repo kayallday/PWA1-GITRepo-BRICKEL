@@ -6,6 +6,7 @@
  */
 
 // self-executing function
+alert("Hello World");
 
 // Alert Hello World
 
@@ -52,17 +53,22 @@
 console.log('------ variables ----------');
 
     //example 1: variables defined properly
-    var name = "kelsey";
-    var course = "PWA1";
-    var month =3;
+    //var name = "kelsey";
+    //var course = "PWA1";
+    //var month = 3;
+    //console.log ("name: ", name + " / course: ", course + " / month: ", + month);
 
     //example 2: variables not defined will = "undefined"
-
+    //var name, course, month;
+    //console.log ("name: ", name + " / course: ", course + " / month: ", + month);
 
     //example 3: a mix of variables defined and not defined
-
+    //var name, course = "PWA1", month;
+    //console.log ("name: ", name + " / course: ", course + " / month: ", + month);
 
     //example 4: declaring multiple variables at once w/ same value
+    //var a = b = c = d = 10;
+    //console.log ("a: ", a + " / b: ", b + " / c: ", c + " / d: ", d);
 
 
 
@@ -318,12 +324,13 @@ console.log('------ conditionals ----------');
 var weather = "Cloudy";
 
 if (weather === "sunny"){
-  var bobsMood = "happy";
+  bobsMood = "happy";
 }
 else {
-    var bobsMood = "sad";
+    bobsMood = "sad";
 }
-   console.log(bobsMood)
+   console.log("If-Else weather: ", bobsMood);
+
 
 /*******************************************
  STUDENT ACTIVITY 4:
@@ -342,16 +349,29 @@ else {
  ********************************************/
 
 var weather = "Cloudy";
-
 var waves = 10;
 
-if (weather === "sunny"){
-    var bobsMood = "happy";
-}
-else {
-    var bobsMood = "sad";
-}
-console.log(bobsMood)
+if (weather === 'Sunny'){
+    if (waves === 10) {
+        Mood = 'PUMPED';
+    }else if ((waves <= 9) && (waves >=5)){
+        Mood = 'mellow';
+    }else{
+        Mood = 'bummed';
+    }
+}else if (weather === 'Overcast') {
+    if ((waves < 10) && (waves >= 7)) {
+        Mood = 'jackedUp';
+    } else if ((waves <= 6) && (waves >= 3)) {
+        Mood = 'totally Bummed';
+    } else {
+        Mood = 'not happy';
+    }
+}else{
+    Mood = 'sad';
+};
+
+console.log("Bob's Mood: ", Mood);
 
 
 
