@@ -52,7 +52,9 @@
 console.log('------ variables ----------');
 
     //example 1: variables defined properly
-
+    var name = "kelsey";
+    var course = "PWA1";
+    var month =3;
 
     //example 2: variables not defined will = "undefined"
 
@@ -338,6 +340,20 @@ else {
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
+
+var weather = "Cloudy";
+
+var waves = 10;
+
+if (weather === "sunny"){
+    var bobsMood = "happy";
+}
+else {
+    var bobsMood = "sad";
+}
+console.log(bobsMood)
+
+
 
 
 
