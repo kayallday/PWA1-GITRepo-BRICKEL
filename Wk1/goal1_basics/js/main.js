@@ -398,6 +398,15 @@ console.log("Bob's Mood: ", Mood);
     - : = false (perform the new statement after the :)
  */
 
+    //var weather = 'Sunny';
+    //var mood = (weather === 'Sunny' ? 'happy' : 'sad');
+    //console.log("mood: ", mood);
+
+    //var smile = true;
+    //console.log('I am ' + ( smile === true ? 'happy' : 'sad' ) + '!!');
+
+
+
 
 
 /*******************************************
@@ -412,7 +421,10 @@ console.log("Bob's Mood: ", Mood);
     4.  console.log the results
  ********************************************/
 
-
+    var temp = 60;
+    var weather = 'LOL';
+    var student1 = (weather === 'Sunny' ? 'happy' : ((temp >= 80) ? 'content' : 'sad' ));
+    console.log("Nested ternary weather: ", student1);
 
 // Functions: (definition, whitespace, invocation, arguments, returns)
 console.log('------Functions ----------');
@@ -456,8 +468,19 @@ console.log('------Functions ----------');
      - type the below as an example
         functionName();
  *****************************
+ */
 
+    var myctr = 1;
 
+    var myCounter = function() {
+        var testVar = 0;
+        myctr++;
+        console.log('counter = ', myctr);
+
+    };
+
+    myCounter();
+    myCounter();
 
 
  /*
@@ -495,6 +518,16 @@ console.log('------Functions ----------');
     - items inside our function we call on these variables.. such as:
  */
 
+    var value1 = 1;
+    var value2 = 2;
+
+    var myFn = function(var1, var2) {
+
+        console.log('function number: ', var1 + var2);
+
+    };
+
+    myFn(value1, value2);
 
 
 
@@ -510,7 +543,17 @@ console.log('------Functions ----------');
      6.  console.log the results
  ********************************************/
 
+    var myctr = 1;
 
+    var myCounter = function(newct){
+        var myctr = 50;
+        myctr += newct;
+        console.log('counter = ', myctr);
+
+    };
+
+    myCounter(5);
+    myCounter(2);
 
 
 /*******************************************
@@ -522,6 +565,12 @@ console.log('------Functions ----------');
         type) back to the point of call (referred to as a method)
     - the called function should be assigned to a variable (i.e name - see below)
  ********************************************/
+
+    var myFn = function(){
+        return 'jamesBond';
+};
+    var name = myFn();
+    console.log('name: ', name);
 
 
 
@@ -541,6 +590,20 @@ console.log('------Functions ----------');
     4.  console.log the results
  ********************************************/
 
+    var myctr = 1;
+
+    var myCounter = function(newct){
+        //var myctr = 50;
+        myctr += newct;
+        return myctr;
+    };
+
+    var cnt = myCounter(5);
+    console.log('counter = ', cnt);
+
+    var cnt = myCounter(2);
+    console.log('counter = ', cnt);
+
 
 
 
@@ -553,4 +616,36 @@ console.log('------Functions ----------');
  4. return Mood
  5. console.log the Results
  ********************************************/
+
+    var value1 = 'Overcast';
+    var value2 = 5;
+
+    var moodFN = function(weather, waves){
+        if (weather === 'Sunny'){
+            if (waves === 10) {
+                Mood = 'PUMPED';
+            } else if ((waves <= 9) && (waves >= 5)){
+                Mood = 'mellow';
+            } else {
+                Mood = 'bummed';
+            }
+
+        } else if (weather === 'Overcast'){
+            if ((waves < 10) && (waves >= 7)){
+                Mood = 'jackedUp';
+            } else if ((waves <= 6) && (waves >= 3)){
+                Mood = 'totally bummed';
+            } else {
+                Mood = 'not happy';
+            }
+
+        } else {
+            Mood = 'sad';
+        };
+
+        return Mood;
+    };
+
+    var moodType = moodFN(value1, value2);
+    console.log("Bob's Mood: ", moodType);
 
