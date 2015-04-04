@@ -175,20 +175,21 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.
-
+	console.log(str1.substr(7, 11));
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
-
+	console.log(str1.concat(str2));
 
 
 //STUDENT ACTIVITY 2:
 // Use substring() to console.log 'JavaScript' from str2.
-
+	console.log(str2.substring(0, 10));
 
 //STUDENT ACTIVITY 3:
 // 1. Use toLowerCase() to console.log the str1 all in lowercase letters.
 // 2. Use toUpperCase() to console.log the str1 all in uppercase letters.
-
+	console.log(str1.toLowerCase());
+	console.log(str1.toUpperCase());
 
 
 /*
@@ -199,15 +200,18 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 console.log('------ MORE Numbers ----------');
 
-// Use toExponential() console.log num in exponential notation with two decimals.
+	var num = 457896;
+	var dec = 33.123456;
 
+// Use toExponential() console.log num in exponential notation with two decimals.
+	console.log(num.toExponential(2));
 
 // Use toPrecision() console.log dec as four numbers.
-
+	console.log(dec.toPrecision(4));
 
 //STUDENT ACTIVITY 4:
 //What method would you use to console.log the variable dec with two decimals.
-
+	console.log(dec.toFixed(2));
 
 // Use toString() to console.log the type of num.
 
@@ -234,7 +238,14 @@ console.log('------ MORE Numbers ----------');
 
 console.log('------ MORE Booleans ----------');
 
+	var num = 9 * 'k';
+	console.log(num);
 
+	if(num){
+		console.log("It's true, the value is: ", num);
+	}else{
+		console.log("It's false, the value is: ", num);
+	}
 	
 /*
 	===============================================
@@ -303,6 +314,19 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
     var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
     var combined;
 
+	var combined = firstQtr.concat(secondQtr);
+	console.log("Concat 2 arrays: ", combined);
+
+	var combined = firstQtr.concat(secondQtr, secondHalfYr);
+	console.log("Concat 3 arrays: ", combined);
+
+	console.log("Joined arrays: ", combined.join());
+
+	console.log("Took out - ", combined.pop());
+	console.log("Show Array: ", combined);
+
+	var results = secondHalfYr.slice(2, 4);
+	console.log("slice: ", results);
 
 /*
 	===============================================
@@ -349,6 +373,19 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if no age then console.log "No answer"
 ********************************************/
 
+	var age = 18;
+
+	switch (age){
+		case 13:
+			console.log("Child");
+			break;
+		case 18:
+			console.log("Adult");
+			break;
+		default:
+			console.log("No Answer");
+			break;
+	}
 
 
 /*
@@ -413,6 +450,12 @@ console.log('------ MORE Functions ----------');
 */
 console.log('------ While / Loop ----------');
 
+	var numOfBeers = 10;
+
+	while (numOfBeers > 0){
+		console.log(numOfBeers + 'kegs on the wall.');
+		numOfBeers--;
+	}
 	
 /*
 	===============================================
@@ -438,6 +481,9 @@ console.log('------ While / Loop ----------');
 
 console.log('------For Loop ----------');
 
+		for (var beers = 10; beers > 0; beers--){
+			console.log(beers + 'bottles of beers on the wall.')
+		}
 
 	/* 
 		array.Length
@@ -449,7 +495,10 @@ console.log('------For Loop ----------');
 		- an array’s numeric index begins at 0  
 		- in the example below, the last index of the array would be 4 
 			- the  .length property returns the count, which would be 5	
-	*/	
+	*/
+
+	var myNums = [1, 2, 3, 4, 5];
+	console.log('length:', myNums.length );
 
 
 	/* 
@@ -471,6 +520,9 @@ console.log('------For Loop ----------');
 			save the array length in a variable, inside the first statement
 	*/
 
+		for ( var i= 0, j=myNums.length; i<j; i++){
+			console.log( myNums[i] );
+		};
 
 	/*
 		BREAK...
@@ -503,7 +555,16 @@ console.log('------For Loop ----------');
 			- in the loop just console.log the values
 ********************************************/
 
+	var cartoonDudes = [
+	'Superman',
+	'Batman',
+	'Wolverine',
+	'Iceman',
+];
 
+	for (var i= 0, j=cartoonDudes.length; i<j; i++){
+		console.log( cartoonDudes[i] );
+	};
 
 /*******************************************
     STUDENT ACTIVITY 8: (More Practice):
