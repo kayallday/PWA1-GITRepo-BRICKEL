@@ -1,7 +1,7 @@
 /*
-     Name:
-     Date:
-     Class & Section:  PWA1-####
+     Name:Kelsey Brickel
+     Date: 4/3/2015
+     Class & Section:  PWA1-1504
      Comments: "Goal 2: JavaScript Practice"
  */
 
