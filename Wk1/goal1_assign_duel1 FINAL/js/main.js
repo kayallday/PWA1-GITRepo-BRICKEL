@@ -10,22 +10,22 @@
 (function(){
 
     console.log("FIGHT!!!");
-
+//create player names
     //player name
-    var playerOneName = "Spiderman";
-    var playerTwoName = "Batman";
-
+    var playerOneName = "Kabal";
+    var playerTwoName = "Kratos";
+//create player damage score for player
     //player damage
     var player1Damage = 20;
     var player2Damage = 20;
-
+//create players beginning health stored
     //player health
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 
     //initiate round
     var round=0;
-
+//create fight function, each time the alert "ok" button is clicked the player damage is applied to the players health
     function fight(){
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
         for (var i = 0; i < 10; i++)
