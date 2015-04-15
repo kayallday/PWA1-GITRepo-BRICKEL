@@ -33,7 +33,9 @@ console.log('------ Recap from the previous lecture ----------');
 
 	//console.log the number of items in the array
 	console.log(students1.length);
-	
+
+	//create a for loop that console.logs the index number, console.logs the student name in the array that pertians to the index number of the loop
+
 
 
 /*
@@ -84,6 +86,7 @@ console.log('------ Debugging ----------');
  ***********************/
 
  /*
+ */
 	//Example1
 	var name = james, course = 'PWA1, month = 3;
 	console.log ("name: ", name + " / course: ", coures + " / month: ", month)
