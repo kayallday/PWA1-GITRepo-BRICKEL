@@ -195,7 +195,7 @@ console.log(str2.substring(0,10));
 	console.log(str1.toUpperCase());
 
 //Use toString() to console log the type of str1.
-	console.log(typeof str1.toString());
+	console.log(typeof str1.toString()); //ensures it is all a string
 
 /*
 	===============================================
@@ -204,6 +204,10 @@ console.log(str2.substring(0,10));
 */
 
 console.log('------ MORE Numbers ----------');
+
+	var num = 457896;
+	var dec = 33.123456;
+
 
 // Use toExponential() console.log num in exponential notation with two decimals.
 
