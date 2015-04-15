@@ -314,6 +314,45 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 
 console.log('------ MORE Operators - typeof() ----------');
 
+	console.log( typeof 5);
+	console.log( typeof "Hi");
+	//should return as a string
+
+	var str1 = "hello";
+	console.log(typeof str1);
+
+
+	//boolean value, print out boolean
+	console.log ( typeof true);
+
+	//function
+	console.log (typeof function(){});
+
+	//item that doesn't exist
+	console.log ( typeof obj1);
+
+	//array *array is actually a type of object as well
+	console.log( typeof [1,2,3,4,5]);
+
+	//should come back undefined
+	console.log( typeof missingVariable);
+
+/*
+Where would type of be used?
+
+- when you're trying to find out what the data type of a variable is
+if you have "10" and it's a string it may not function like you think it should
+
+if ( typeof myString === 'undefined'){
+		console.log("myString is undefined");
+	}else{
+		console.log("myString is:", myString);
+	};
+
+ */
+
+
+
 
 /*
 	===============================================
