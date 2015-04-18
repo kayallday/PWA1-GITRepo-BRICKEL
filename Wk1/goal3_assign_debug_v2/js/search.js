@@ -8,30 +8,30 @@
 	;
 
 	// Validates search query
-	var validate == function(query){								//var validate is spelled wrong, missing name in function declaration
+	var validate = function search (query){									//var validate is spelled wrong, missing name 'search' in function declaration, logical error == instead of =
 
 		// Trim whitespace from start and end of search query
-		while(query.charAt(0) = " "){
+		while(query.charAt[0] = " "){										//(0) needs to be a value the correct index is [0]
 			query = query.substring(1, query.length);
-		};															//unnecessary semi colon
+		};																	//unnecessary semi colon
 		while(query.charAt(query.length-1) === ""){
 			query = query.substring(0, query.length-1);
-		;															//unnecessary semi colon
+		;																	//unnecessary semi colon
 
 		// Check search length, must have 3 characters
 		if(query.length < 3){
-			alert("Your search query is too small, try again.");  	//missing "
+			alert("Your search query is too small, try again.");  			//missing "
 
 			// (DO NOT FIX THE LINE DIRECTLY BELOW)
 			searchInput.focus();
 			return;
-		}															//unnecessary semi colon
+		}																	//unnecessary semi colon
 
-		search(query);
-	}																//unnecessary semi colon
+			search(query);													//missing function call?
+	}																		//unnecessary semi colon
 
-	// Finds search matches
-	var search = function(query)
+	// Finds search matches													//need opening bracket
+	var search = function(query){
 
 		// split the user's search query string into an array
 		var queryArray = query.join(" ");
@@ -45,12 +45,12 @@
 			// each db[i] is a single video item, each title ends with a pipe "|"
 			// save a lowercase variable of the video title
 			var dbTitleEnd = db[i].indexOf('|');
-			var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);		//tolowercase should be toLowerCase
+			var dbitem = db[i].toLowerCase().substring(0, dbTitleEnd);		//tolowercase should be toLowerCase
 
 			// loop through the user's search query words
 			// save a lowercase variable of the search keyword
 			for(var ii=0, jj=queryArray.length; ii<jj; ii++){
-				var qitem = queryArray[ii].tolowercase();
+				var qitem = queryArray[ii].toLowerCase();					//var qitem should be item, also tolowercase should be in camel case toLowerCase
 
 				// is the keyword anywhere in the video title?
 				// If a match is found, push full db[i] into results array
@@ -65,7 +65,7 @@
 
 		// Check that matches were found, and run output functions
 		if(results.length = 0){
-			noMatch();
+			 noMatch();
 		}else{
 			showMatches(results);
 		};
