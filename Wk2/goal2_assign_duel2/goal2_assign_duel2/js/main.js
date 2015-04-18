@@ -1,4 +1,5 @@
 /**
+ * Name: Kelsey M. Brickel
  * Duel Fight Game - FINISHED
  * Date: 4/09/13
 
@@ -42,8 +43,8 @@
             //random formula is - Math.floor(Math.random() * (max - min) + min);
             var minDamage1 = player1[1] * .5;
             var minDamage2 = player2[1] * .5;
-            var f1 = Math.floor(Math.random()*(player1-minDamage1)+minDamage1);
-            var f2 = Math.floor(Math.random()*(player2-minDamage2)+minDamage2);
+            var f1 = Math.floor(Math.random()*(player1[2]-minDamage1)+minDamage1);
+            var f2 = Math.floor(Math.random()*(player2[2]-minDamage2)+minDamage2);
 
             //inflict damage
             player1[2]-=f1;
