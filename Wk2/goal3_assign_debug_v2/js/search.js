@@ -27,7 +27,7 @@
 			return;
 		}
 
-			search(query);													//missing function call?
+			function search(query);													//missing function call?
 	}																		//unnecessary semi colon
 
 	// Finds search matches													//need opening bracket
