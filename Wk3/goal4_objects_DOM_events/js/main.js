@@ -53,12 +53,11 @@ console.log('------Objects ----------');
 	person.name = 'JamesBond';
 	console.log (person);
 
-	
-
-
-
 //nested objects
+	person = {birthday:{month:02, day:12}, name:'bond'};
+	console.log(person);
 
+	console.log(person.birthday.month);
 
 
 //---------------------------------------------
@@ -134,6 +133,17 @@ STUDENT ACTIVITY 1:
 console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
+
+
+	var obj1 = {
+		schoolName:'Full Sail',
+		address:'123 University Blvd',
+		studentCount: 16000,
+		students:[
+			{name:'Kelsey Brickel', GPA:3.29, classes:['PWA1','PWA2']}
+		]
+	};
+
 
 
 
