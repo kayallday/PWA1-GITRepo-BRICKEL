@@ -55,7 +55,7 @@ console.log('------Objects ----------');
 
 //nested objects
 	person = {birthday:{month:02, day:12}, name:'bond'};
-	console.log(person);
+	console.log(person['birthday']['month']);
 
 	console.log(person.birthday.month);
 
@@ -140,9 +140,23 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 		address:'123 University Blvd',
 		studentCount: 16000,
 		students:[
-			{name:'Kelsey Brickel', GPA:3.29, classes:['PWA1','PWA2']}
+			{name:'Kelsey Brickel', GPA:3.29, classes:['PWA1','PWA2']},
+			{name:'Jimmy Crack Corn', GPA:4.0},
+			{name:'Sir Ulrich Von Lichtenstein', GPA:3.5}
 		]
 	};
+
+	console.log(obj1.schoolName);		//dot syntax
+	console.log(obj1['schoolName']);	//index syntax
+
+	var newCnt = 'studentCount';
+	console.log(obj1[newCnt]);
+
+	var fieldName1 = "address";
+	console.log(obj1[fieldName1]);
+
+	
+
 
 
 
