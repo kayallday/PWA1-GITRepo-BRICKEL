@@ -13,25 +13,35 @@
     console.log("READY FIGHT!!!");
 
     /*
-//create player names
-    //player name
-    var playerOneName = "Kabal";
-    var playerTwoName = "Kratos";
-//create player damage score for player
-    //player damage
-    var player1Damage = 20;
-    var player2Damage = 20;
-//create players beginning health stored
-    //player health
-    var playerOneHealth = 100;
-    var playerTwoHealth = 100;
+     //create player names
+     //player name
+     var playerOneName = "Kabal";
+     var playerTwoName = "Kratos";
+     //create player damage score for player
+     //player damage
+     var player1Damage = 20;
+     var player2Damage = 20;
+     //create players beginning health stored
+     //player health
+     var playerOneHealth = 100;
+     var playerTwoHealth = 100;
 
-    */
+     */
     //replace variables for both players with arrays
 
-    var player1 = ["Kabal", 20, 100];
+    //var player1 = ["Kabal", 20, 100];
     // [0] = name [1] = damage [2] = health
-    var player2 = ["Kratos", 20, 100];
+    //var player2 = ["Kratos", 20, 100];
+
+
+    //place variables into an object with 3 properties
+
+    player1 = {name: "Kabal", damage:20, health:100};
+    player2 = {name: "Kratos", damage:20, health:100};
+
+
+
+
 
     //initiate round
     var round=0;
@@ -65,7 +75,7 @@
                 break;
             };
 
-          };
+        };
     };
 
     function winnerCheck(){
@@ -79,7 +89,7 @@
         {
             result = player1[0]+" WINS!!!"
         };
-       return result;
+        return result;
     };
 
     /*******  The program gets started below *******/
