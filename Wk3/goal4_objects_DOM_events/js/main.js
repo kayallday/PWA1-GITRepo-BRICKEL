@@ -155,8 +155,9 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 	var fieldName1 = "address";
 	console.log(obj1[fieldName1]);
 
-	
 
+	console.log("James Bond's GPA: ",obj1.students[2].GPA);
+	console.log("James Bond's GPA: ",obj1['students'][2]['GPA']);
 
 
 
@@ -173,7 +174,16 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
 
+	var gradeAvg = function(obj){
+		var count = 0;
+		var total = 0;
 
+		for (var i = 0, j = obj.students.length; i < j; i++){
+
+		};
+	};
+
+	console.log('Average Grade:',gradeAvg(obj1));
 
 
 /* ===============================================================
@@ -190,7 +200,7 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 /*
 	===============================================
-	MORE Object infomation
+	MORE Object information
 	
 		- most strictly-typed languages have clear separations in their data types 
 			and classical behavior
