@@ -10,8 +10,8 @@
 // self-executing function
 (function(){
 
-    console.log("READY FIGHT!!!");
-
+    var readyFight = ("READY FIGHT!!!");
+    populateHTML(readyFight);
     /*
 //create player names
     //player name
@@ -44,7 +44,7 @@
     var round=0;
 //create fight function, each time the alert "ok" button is clicked the player damage is applied to the players health
     function fight(){
-        alert(player1[0]+":"+player1[2]+"  *START*  "+player2[0]+":"+player2[2]);
+        document.write(player1[0]+":"+player1[2]+"  *START*  "+player2[0]+":"+player2[2]);
         for (var i = 0; i < 10; i++)
         {
             //random formula is - Math.floor(Math.random() * (max - min) + min);
@@ -65,10 +65,10 @@
             if (result==="no winner")
             {
                 round++;
-                alert(player1[0]+":"+player1[2]+"  *ROUND "+round+" OVER"+"*  "+player2[0]+":"+player2[2]);
+                document.write(player1[0]+":"+player1[2]+"  *ROUND "+round+" OVER"+"*  "+player2[0]+":"+player2[2]);
 
             } else{
-                alert(result);
+                document.write(result);
                 break;
             };
 

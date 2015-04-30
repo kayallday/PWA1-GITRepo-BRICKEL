@@ -11,12 +11,12 @@
 	var validate = function search (query){									//var validate is spelled wrong, missing name 'search' in function declaration, logical error == instead of =
 
 		// Trim whitespace from start and end of search query
-		while(query.charAt[0] = " "){										//(0) needs to be a value the correct index is [0]
+		while(query.charAt(0) == " "){										//= needs to be ==
 			query = query.substring(1, query.length);
 		};
-		while(query.charAt(query.length-1) === ""){
-			query = query.substring(0, query.length-1);
-		;
+		while(query.charAt(query.length-1) === "") {
+			query = query.substring(0, query.length - 1);
+		};		//forgot closing curly brace
 
 		// Check search length, must have 3 characters
 		if(query.length < 3){
@@ -25,16 +25,16 @@
 			// (DO NOT FIX THE LINE DIRECTLY BELOW)
 			searchInput.focus();
 			return;
-		}
+		};
 
 			function search(query);													//missing function call?
-	}																		//unnecessary semi colon
+	};																		//unnecessary semi colon
 
 	// Finds search matches													//need opening bracket
 	var search = function(query){
 
 		// split the user's search query string into an array
-		var queryArray = query.join(" ");
+		var queryArray = query.split(" "); //should be .split as indicated in the comments,
 
 		// array to store matched results from database.js
 		var results = [];

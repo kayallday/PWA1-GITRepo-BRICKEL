@@ -178,7 +178,9 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 		var count = 0;
 		var total = 0;
 
-		for (var i = 0, j = obj.students.length; i < j; i++){
+		for (var i = 0, j = obj.students.length; i < j; i++){	//i and j are index
+			count++;
+			total = total + obj.students[i]['GPA'];
 
 		};
 	};
