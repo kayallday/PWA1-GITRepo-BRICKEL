@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b05c5705-d9c0-45af-a2b7-13cc27e7cbdd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk2/goal3_assign_debug_v2/images/goal3_DebugFlowchart_Brickel_Kelsey.jpg" afterPath="$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/images/goal3_DebugFlowchart_Brickel_Kelsey.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk2/goal3_assign_debug_v2/index.html" afterPath="$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk2/goal3_assign_debug_v2/js/database.js" afterPath="$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/js/database.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk2/goal3_assign_debug_v2/js/search.js" afterPath="$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/js/search.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk2/goal3_assign_debug_v2/style.css" afterPath="$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk3/goal4_objects_DOM_events/css/style.css" afterPath="$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk3/goal4_objects_DOM_events/images/ui-icons_ffffff.png" afterPath="$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/images/ui-icons_ffffff.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk3/goal4_objects_DOM_events/index.html" afterPath="$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Wk3/goal4_objects_DOM_events/js/main.js" afterPath="$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk3/goal4_assign_duel3/js/main.js" afterPath="$PROJECT_DIR$/Wk3/goal4_assign_duel3/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b05c5705-d9c0-45af-a2b7-13cc27e7cbdd" name="Default" comment="" />
     <ignored path="PWA1-GITRepo-BRICKEL.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5276382">
+            <state vertical-scroll-proportion="-12.6">
               <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -45,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk3/goal4_assign_duel3/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.36173633">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -196,6 +184,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Wk3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1-GITRepo-BRICKEL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1-GITRepo-BRICKEL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal4_assign_duel3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -606,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk3/goal4_assign_duel3/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wk3/goal3_assign_debug_v2/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15594855">
@@ -634,11 +632,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5276382">
+        <state vertical-scroll-proportion="-12.6">
           <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk3/goal4_assign_duel3/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36173633">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
