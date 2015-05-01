@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b05c5705-d9c0-45af-a2b7-13cc27e7cbdd" name="Default" comment="" />
+    <list default="true" id="b05c5705-d9c0-45af-a2b7-13cc27e7cbdd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk4/goal5_RegEx_Math_Date/js/script.js" afterPath="$PROJECT_DIR$/Wk4/goal5_RegEx_Math_Date/js/script.js" />
+    </list>
     <ignored path="PWA1-GITRepo-BRICKEL.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +26,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.48">
+            <state vertical-scroll-proportion="-117.6">
               <caret line="461" column="60" selection-start-line="461" selection-start-column="60" selection-end-line="461" selection-end-column="60" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -36,8 +38,20 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk4/goal5_RegEx_Math_Date/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7487437">
-              <caret line="437" column="4" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.30653265">
+              <caret line="345" column="138" selection-start-line="345" selection-start-column="138" selection-end-line="345" selection-end-column="138" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wk4/goal5_assign_validation/js/validate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -89,7 +103,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="522" />
+    <option name="x" value="636" />
     <option name="y" value="23" />
     <option name="width" value="1270" />
     <option name="height" value="719" />
@@ -305,7 +319,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="522" y="23" width="1270" height="719" extended-state="0" />
+    <frame x="636" y="23" width="1270" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21259843" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -654,8 +668,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk4/goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.48">
+        <state vertical-scroll-proportion="-117.6">
           <caret line="461" column="60" selection-start-line="461" selection-start-column="60" selection-end-line="461" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk4/goal5_assign_validation/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -664,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk4/goal5_RegEx_Math_Date/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7487437">
-          <caret line="437" column="4" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.30653265">
+          <caret line="345" column="138" selection-start-line="345" selection-start-column="138" selection-end-line="345" selection-end-column="138" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

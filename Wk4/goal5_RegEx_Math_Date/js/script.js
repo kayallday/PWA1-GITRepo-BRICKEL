@@ -306,30 +306,44 @@ console.log('------------ DOM Events -------------------');
 
 console.log('------------ Regular Expressions -------------------');
 
+
+	jamesbond@fullsail.com
+	JamesBond@fullsail.com
+	James-Bond@fullsail.com
+	James.Bond@fullsail.com
+	jamesbond@66.192.104.74
+
+	var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a-zA-Z]+$/;
+
+	var email = new RegExp(emailRegEx);
+
+
 /******************************************************************************
 STUDENT ACTIVITY
 
 	1.  Write a RegEx for a basic name (containing only letters)
 
-		Answer: 
+		Answer: 	var nameRegEx = /^[a-zA-Z]+$/
+
+ 					var Name = new RegExp(nameRegEx)
 
 	2.  What are the possible answers for this: /[Jj]ava[Ss]cript/
 
-		Answer: 
+		Answer: "Javascript", "JavaScript", "javascript", or "javaScript"
 
 	3. 	What are the possible answers for this: /^(Java)?Script$/
 
-		Answer: 
+		Answer: "JavaScript" or "Script".. but not "JavaJavaScript"
 
 	4. 	Describe the possible answer for this: /^[a-zA-Z\^\-\.]+$/
 
-		Answer: 
+		Answer: matches 1 or more of only letters
 
 	5.	Combining character sets can create sequences of matches.
 		
 		Describe the possible answers for this: /^[a-zA-Z]+[0-9]$/ 	
 
-		Answer: 
+		Answer: matches 1 or more letters at the beginning, and 1 number at the end = would match "james1", but not "james11" or "11james"
 
 ----------------------------------------------------------------------------- */
 
@@ -435,7 +449,24 @@ STUDENT ACTIVITY
 
     console.log('------------ Date Methods -------------------');
 
-	
+	console.log(new Date());
+	//gives Day, Month, Date, Year, Miltime00:00:00
+
+	var d = new Date();
+	/*console.log(d.getDate());
+	console.log(d.getDay());
+	console.log(d.getFullYear());
+	console.log(d.getHours());
+	console.log(d.getTime());
+
+	*/
+	console.log(d.setFullYear(2021, 0, 01));
+	document.getElementById("tagbox").innerHTML=d;
+
+	var d = new Date();
+	console.log(d.toLocaleDateString());
+	//returns 0/00/00 format
+	console.log(typeof d.toString());
 
 
 
