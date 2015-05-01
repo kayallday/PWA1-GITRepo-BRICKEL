@@ -1,6 +1,11 @@
 /*
     PWA1: Goal 4: Course Material 4
 
+    Name: Kelsey M Brickel
+    Course: PWA - 1
+    Section:
+    Date: 4/30/15
+
 	1. Objects
 	2. Document Object Model
 	3. Events and Callbacks
@@ -449,7 +454,7 @@ Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWF
 */
 console.log('------------ DOM Events Ex 1-------------------');
 
-var nav = document.querySelectorAll('#nav li a');
+/*var nav = document.querySelectorAll('#nav li a');
 
 	for (var i = 0, max = nav.length; i < max; i++){
 		console.log(nav[i]);
@@ -506,13 +511,17 @@ console.log('------------ DOM Events Ex 2 -------------------');
 
 // this example changes the clicked link to the active class
 
+	nav[0].setAttribute('class', 'navitem active');
+
 	for (var i = 0, max = nav.length; i < max; i++) {
 
 		nav[i].onclick = function (e) {
 
-			for (var ii = 0, max2 = nav.length; ii < max2; ii++) {
-				nav[ii].setAttribute('class', 'navitem');
-			}
+	//		for (var ii = 0, max2 = nav.length; ii < max2; ii++) {
+	//			nav[ii].setAttribute('class', 'navitem');
+	//		}
+
+			document.querySelector('#nav li a.active').setAttribute('class','navitem');
 
 			console.log(this);
 			this.setAttribute('class', 'navitem active');
