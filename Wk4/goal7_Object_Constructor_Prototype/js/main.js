@@ -30,6 +30,8 @@
 
 	// get the location of the blog button
 
+    var button = document.getElementById('blog_btn');
+
 
 /************************************************************************
     Blog constructor:
@@ -68,6 +70,22 @@
  -----------------------------------------------------------------------
  */
 
+    var Blog = function(str, date) {
+
+    this.body = str;
+    this.date = date;
+
+    Blog.prototype.toHTML = function (highlight) {
+
+        var blogHTML = "";
+
+        blogHTML += highlight ? "<p style ='background-color:#EEEEEE'>"
+
+        blogHTML += "<strong>" + this.date + "</strong><br>" + this.body
+
+        return blogHTML;
+    };
+}
 
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
@@ -83,6 +101,10 @@
     //        new Blog('What\'s all this new object stuff (i.e THIS, prototype, etc...)', '08/21/2008')
     //    ];
 
+
+    var blog = [
+        new Blog('Learned about functions, and how to pass parameters into them.', )
+    ]
 
 
 })();  // end wrapper
